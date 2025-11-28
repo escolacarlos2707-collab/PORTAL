@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meu Portal Pessoal</title>
+  <style>
+   
+    :root{
+      --bg:#0f1724;
+      --card:#10182a;
+      --glass: rgba(255,255,255,0.05);
+      --accent-1: linear-gradient(135deg,#22c55e,#3b82f6);
+      --accent-2: linear-gradient(135deg,#f59e0b,#ef4444);
+      --text: #f1f5f9;
+      --muted:#9ca3af;
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    .container{max-width:1100px;margin:auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
+    h1{font-size:22px;margin:0;font-weight:700}
+    .sub{color:var(--muted);font-size:14px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    .card{height:120px;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--card);cursor:pointer;transition:.2s}
+    .card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,0,0,.4)}
+    .card a{text-decoration:none;color:inherit;font-weight:600;font-size:16px}
+    footer{text-align:center;color:var(--muted);margin-top:32px;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Portal de Apresentação</h1>
+        <div class="sub">Clique nos botões para abrir os sites</div>
+      </div>
+    </header>
+
+    <section class="grid">
+      <div class="card"><a href="https://gregorio2767.github.io/playmusics/" target="_blank">Site 1</a></div>
+      <div class="card"><a href="INSIRA_SEU_LINK_AQUI" target="_blank">Site 2</a></div>
+      <div class="card"><a href="INSIRA_SEU_LINK_AQUI" target="_blank">Site 3</a></div>
+      <div class="card"><a href="INSIRA_SEU_LINK_AQUI" target="_blank">Site 4</a></div>
+      <div class="card"><a href="INSIRA_SEU_LINK_AQUI" target="_blank">Site 5</a></div>
+      <div class="card"><a href="INSIRA_SEU_LINK_AQUI" target="_blank">Site 6</a></div>
+      <div class="card"><a href="INSIRA_SEU_LINK_AQUI" target="_blank">Site 7</a></div>
+    </section>
+
+    <footer>
+      Feito por Carlos Henrique 
+      
+    </footer>
+  </div>
+</body>
+</html>
